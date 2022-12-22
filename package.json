@@ -1,0 +1,13 @@
+{
+    "name": "pluraltext",
+    "version": "0.1",
+    "description": "Your personal 'plural translator",
+    "main": "pluraltext.js",
+    "repository": "https://github.com/5GameMaker/pluraltext.git",
+    "author": "Buj Itself <primary@buj-dev.site>",
+    "license": "MIT",
+    "scripts": {
+        "build": "npx --yes web-ext build --overwrite-dest"
+    },
+    "private": true
+}
