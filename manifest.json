@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Pluraltext",
+    "version": "0.1",
+ 
+    "description": "Makes 'plural text readable again",
+ 
+    "icons": {
+        "48": "pluraltext-48.png",
+        "96": "pluraltext-96.png"
+    },
+ 
+    "content_scripts": [
+        {
+            "matches": ["*://*.discord.com/channels/*"],
+            "js": ["pluraltext.js"]
+        }
+    ]
+}
+
